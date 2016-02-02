@@ -34,6 +34,6 @@ This app is a demo for users to view images from camera roll and Instagram.
 
 ![image](./README_StoryBoard.png)  
 
-**Network** In order to access to Instagram, the 3rd party library *SimpleAuth* is used in the app to complete the OAuth2 step. *SimpleAuth* is installed using *CocoaPods*, so there is a *Podfile* and another *workspace* created by *CocoaPods* in the project directory.
+**Network** In order to access to Instagram, the 3rd party library *[SimpleAuth](http://simpleauth.io/)* is used in the app to complete the OAuth2 step. *SimpleAuth* is installed using *CocoaPods*, so there is a *Podfile* and another *workspace* created by *CocoaPods* in the project directory.
 
 **PS.** Instagram part is not using the self written library. I temporarily had some problem adding the instagram part to the library, but I'll try to figure this out. The demo is really simple and lots of features could be much better , I'll keep thinking about this and update it.

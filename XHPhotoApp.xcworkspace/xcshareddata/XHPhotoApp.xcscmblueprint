@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4A8E672CD806E54D6A4CB90F834F9DA60175E385",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4A8E672CD806E54D6A4CB90F834F9DA60175E385" : 0,
+    "38F7D0435955DFD1D50DBC02D5F6CBFEC80BE3A6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4ECAC465-B7D1-40DC-AB2E-B3EA6F204CC5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4A8E672CD806E54D6A4CB90F834F9DA60175E385" : "XHPhotoApp\/",
+    "38F7D0435955DFD1D50DBC02D5F6CBFEC80BE3A6" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "XHPhotoApp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "XHPhotoApp.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xhuang89\/xhuang89.github.io.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38F7D0435955DFD1D50DBC02D5F6CBFEC80BE3A6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xhuang68\/XHPhotoApp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A8E672CD806E54D6A4CB90F834F9DA60175E385"
+    }
+  ]
+}
