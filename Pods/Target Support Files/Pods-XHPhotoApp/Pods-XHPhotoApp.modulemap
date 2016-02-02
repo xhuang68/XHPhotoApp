@@ -1,0 +1,6 @@
+framework module Pods_XHPhotoApp {
+  umbrella header "Pods-XHPhotoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

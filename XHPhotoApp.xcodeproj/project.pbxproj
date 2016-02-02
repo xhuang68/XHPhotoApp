@@ -1,0 +1,697 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180122091C5ED310000C941D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180122081C5ED310000C941D /* main.m */; };
+		1801220C1C5ED310000C941D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801220B1C5ED310000C941D /* AppDelegate.m */; };
+		180122121C5ED310000C941D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180122101C5ED310000C941D /* Main.storyboard */; };
+		180122141C5ED310000C941D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180122131C5ED310000C941D /* Assets.xcassets */; };
+		180122171C5ED310000C941D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180122151C5ED310000C941D /* LaunchScreen.storyboard */; };
+		180122221C5ED310000C941D /* XHPhotoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 180122211C5ED310000C941D /* XHPhotoAppTests.m */; };
+		1801222D1C5ED310000C941D /* XHPhotoAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801222C1C5ED310000C941D /* XHPhotoAppUITests.m */; };
+		1801223C1C5ED358000C941D /* XHPhotoLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801223B1C5ED358000C941D /* XHPhotoLibrary.m */; };
+		1801223F1C5ED438000C941D /* XHCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1801223E1C5ED438000C941D /* XHCollectionViewController.m */; };
+		180122421C5ED45D000C941D /* XHCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 180122411C5ED45D000C941D /* XHCollectionViewCell.m */; };
+		180122451C5ED4C8000C941D /* UICollectionView+Convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 180122441C5ED4C8000C941D /* UICollectionView+Convenience.m */; };
+		180122511C5F0269000C941D /* XHDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180122501C5F0269000C941D /* XHDetailViewController.m */; };
+		180122541C5F029C000C941D /* XHImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180122531C5F029C000C941D /* XHImageScrollView.m */; };
+		18C857B11C6010870073BF88 /* XHLaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C857B01C6010870073BF88 /* XHLaunchViewController.m */; };
+		18C857B41C6015140073BF88 /* XHInstCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C857B31C6015140073BF88 /* XHInstCollectionViewController.m */; };
+		18C857B71C6015360073BF88 /* XHInstCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C857B61C6015360073BF88 /* XHInstCollectionViewCell.m */; };
+		547F397302B43167CC5B249E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 481D5DD0C5BDE5C341E2B93D /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1801221E1C5ED310000C941D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180121FC1C5ED310000C941D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180122031C5ED310000C941D;
+			remoteInfo = XHPhotoApp;
+		};
+		180122291C5ED310000C941D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 180121FC1C5ED310000C941D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 180122031C5ED310000C941D;
+			remoteInfo = XHPhotoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		180122041C5ED310000C941D /* XHPhotoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHPhotoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180122081C5ED310000C941D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1801220A1C5ED310000C941D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1801220B1C5ED310000C941D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180122111C5ED310000C941D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180122131C5ED310000C941D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180122161C5ED310000C941D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180122181C5ED310000C941D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1801221D1C5ED310000C941D /* XHPhotoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHPhotoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		180122211C5ED310000C941D /* XHPhotoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHPhotoAppTests.m; sourceTree = "<group>"; };
+		180122231C5ED310000C941D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180122281C5ED310000C941D /* XHPhotoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XHPhotoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1801222C1C5ED310000C941D /* XHPhotoAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHPhotoAppUITests.m; sourceTree = "<group>"; };
+		1801222E1C5ED310000C941D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1801223A1C5ED358000C941D /* XHPhotoLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XHPhotoLibrary.h; path = ../XHPhotoLibrary.h; sourceTree = "<group>"; };
+		1801223B1C5ED358000C941D /* XHPhotoLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XHPhotoLibrary.m; path = ../XHPhotoLibrary.m; sourceTree = "<group>"; };
+		1801223D1C5ED438000C941D /* XHCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCollectionViewController.h; sourceTree = "<group>"; };
+		1801223E1C5ED438000C941D /* XHCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCollectionViewController.m; sourceTree = "<group>"; };
+		180122401C5ED45D000C941D /* XHCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHCollectionViewCell.h; sourceTree = "<group>"; };
+		180122411C5ED45D000C941D /* XHCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHCollectionViewCell.m; sourceTree = "<group>"; };
+		180122431C5ED4C8000C941D /* UICollectionView+Convenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+Convenience.h"; sourceTree = "<group>"; };
+		180122441C5ED4C8000C941D /* UICollectionView+Convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+Convenience.m"; sourceTree = "<group>"; };
+		1801224F1C5F0269000C941D /* XHDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDetailViewController.h; sourceTree = "<group>"; };
+		180122501C5F0269000C941D /* XHDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDetailViewController.m; sourceTree = "<group>"; };
+		180122521C5F029C000C941D /* XHImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHImageScrollView.h; sourceTree = "<group>"; };
+		180122531C5F029C000C941D /* XHImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHImageScrollView.m; sourceTree = "<group>"; };
+		18C857AF1C6010870073BF88 /* XHLaunchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHLaunchViewController.h; sourceTree = "<group>"; };
+		18C857B01C6010870073BF88 /* XHLaunchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHLaunchViewController.m; sourceTree = "<group>"; };
+		18C857B21C6015140073BF88 /* XHInstCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHInstCollectionViewController.h; sourceTree = "<group>"; };
+		18C857B31C6015140073BF88 /* XHInstCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHInstCollectionViewController.m; sourceTree = "<group>"; };
+		18C857B51C6015360073BF88 /* XHInstCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHInstCollectionViewCell.h; sourceTree = "<group>"; };
+		18C857B61C6015360073BF88 /* XHInstCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHInstCollectionViewCell.m; sourceTree = "<group>"; };
+		3C3590E17AF02144F5F3D220 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		481D5DD0C5BDE5C341E2B93D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		990CC128E619FA1684EF3B89 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180122011C5ED310000C941D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				547F397302B43167CC5B249E /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801221A1C5ED310000C941D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180122251C5ED310000C941D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041AD21FAE7F4DC4E709BE51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C3590E17AF02144F5F3D220 /* Pods.debug.xcconfig */,
+				990CC128E619FA1684EF3B89 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		180121FB1C5ED310000C941D = {
+			isa = PBXGroup;
+			children = (
+				180122061C5ED310000C941D /* XHPhotoApp */,
+				180122201C5ED310000C941D /* XHPhotoAppTests */,
+				1801222B1C5ED310000C941D /* XHPhotoAppUITests */,
+				180122051C5ED310000C941D /* Products */,
+				041AD21FAE7F4DC4E709BE51 /* Pods */,
+				93ECFA92646E2DC176EAC7AC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		180122051C5ED310000C941D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180122041C5ED310000C941D /* XHPhotoApp.app */,
+				1801221D1C5ED310000C941D /* XHPhotoAppTests.xctest */,
+				180122281C5ED310000C941D /* XHPhotoAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180122061C5ED310000C941D /* XHPhotoApp */ = {
+			isa = PBXGroup;
+			children = (
+				1801225A1C5F0895000C941D /* Data Sources */,
+				180122551C5F07F0000C941D /* Controllers */,
+				180122581C5F083F000C941D /* View */,
+				180122591C5F0864000C941D /* Layout */,
+				180122561C5F0818000C941D /* Categories */,
+				180122571C5F0832000C941D /* Other */,
+				180122131C5ED310000C941D /* Assets.xcassets */,
+				180122071C5ED310000C941D /* Supporting Files */,
+			);
+			path = XHPhotoApp;
+			sourceTree = "<group>";
+		};
+		180122071C5ED310000C941D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				180122181C5ED310000C941D /* Info.plist */,
+				180122081C5ED310000C941D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		180122201C5ED310000C941D /* XHPhotoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				180122211C5ED310000C941D /* XHPhotoAppTests.m */,
+				180122231C5ED310000C941D /* Info.plist */,
+			);
+			path = XHPhotoAppTests;
+			sourceTree = "<group>";
+		};
+		1801222B1C5ED310000C941D /* XHPhotoAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1801222C1C5ED310000C941D /* XHPhotoAppUITests.m */,
+				1801222E1C5ED310000C941D /* Info.plist */,
+			);
+			path = XHPhotoAppUITests;
+			sourceTree = "<group>";
+		};
+		180122551C5F07F0000C941D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18C857AF1C6010870073BF88 /* XHLaunchViewController.h */,
+				18C857B01C6010870073BF88 /* XHLaunchViewController.m */,
+				18C857B21C6015140073BF88 /* XHInstCollectionViewController.h */,
+				18C857B31C6015140073BF88 /* XHInstCollectionViewController.m */,
+				1801223D1C5ED438000C941D /* XHCollectionViewController.h */,
+				1801223E1C5ED438000C941D /* XHCollectionViewController.m */,
+				1801224F1C5F0269000C941D /* XHDetailViewController.h */,
+				180122501C5F0269000C941D /* XHDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		180122561C5F0818000C941D /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				180122431C5ED4C8000C941D /* UICollectionView+Convenience.h */,
+				180122441C5ED4C8000C941D /* UICollectionView+Convenience.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		180122571C5F0832000C941D /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1801220A1C5ED310000C941D /* AppDelegate.h */,
+				1801220B1C5ED310000C941D /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		180122581C5F083F000C941D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18C857B51C6015360073BF88 /* XHInstCollectionViewCell.h */,
+				18C857B61C6015360073BF88 /* XHInstCollectionViewCell.m */,
+				180122401C5ED45D000C941D /* XHCollectionViewCell.h */,
+				180122411C5ED45D000C941D /* XHCollectionViewCell.m */,
+				180122521C5F029C000C941D /* XHImageScrollView.h */,
+				180122531C5F029C000C941D /* XHImageScrollView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		180122591C5F0864000C941D /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				180122101C5ED310000C941D /* Main.storyboard */,
+				180122151C5ED310000C941D /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		1801225A1C5F0895000C941D /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1801223A1C5ED358000C941D /* XHPhotoLibrary.h */,
+				1801223B1C5ED358000C941D /* XHPhotoLibrary.m */,
+			);
+			name = "Data Sources";
+			sourceTree = "<group>";
+		};
+		93ECFA92646E2DC176EAC7AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				481D5DD0C5BDE5C341E2B93D /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180122031C5ED310000C941D /* XHPhotoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180122311C5ED310000C941D /* Build configuration list for PBXNativeTarget "XHPhotoApp" */;
+			buildPhases = (
+				3DADFCD4C43126BD6AB50032 /* Check Pods Manifest.lock */,
+				180122001C5ED310000C941D /* Sources */,
+				180122011C5ED310000C941D /* Frameworks */,
+				180122021C5ED310000C941D /* Resources */,
+				3EC41CF58C760F6AD89BA795 /* Embed Pods Frameworks */,
+				ED74D126549682D6FCACAB89 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XHPhotoApp;
+			productName = XHPhotoApp;
+			productReference = 180122041C5ED310000C941D /* XHPhotoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1801221C1C5ED310000C941D /* XHPhotoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180122341C5ED310000C941D /* Build configuration list for PBXNativeTarget "XHPhotoAppTests" */;
+			buildPhases = (
+				180122191C5ED310000C941D /* Sources */,
+				1801221A1C5ED310000C941D /* Frameworks */,
+				1801221B1C5ED310000C941D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1801221F1C5ED310000C941D /* PBXTargetDependency */,
+			);
+			name = XHPhotoAppTests;
+			productName = XHPhotoAppTests;
+			productReference = 1801221D1C5ED310000C941D /* XHPhotoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		180122271C5ED310000C941D /* XHPhotoAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180122371C5ED310000C941D /* Build configuration list for PBXNativeTarget "XHPhotoAppUITests" */;
+			buildPhases = (
+				180122241C5ED310000C941D /* Sources */,
+				180122251C5ED310000C941D /* Frameworks */,
+				180122261C5ED310000C941D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1801222A1C5ED310000C941D /* PBXTargetDependency */,
+			);
+			name = XHPhotoAppUITests;
+			productName = XHPhotoAppUITests;
+			productReference = 180122281C5ED310000C941D /* XHPhotoAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180121FC1C5ED310000C941D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = XiaoHuang;
+				TargetAttributes = {
+					180122031C5ED310000C941D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					1801221C1C5ED310000C941D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 180122031C5ED310000C941D;
+					};
+					180122271C5ED310000C941D = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 180122031C5ED310000C941D;
+					};
+				};
+			};
+			buildConfigurationList = 180121FF1C5ED310000C941D /* Build configuration list for PBXProject "XHPhotoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180121FB1C5ED310000C941D;
+			productRefGroup = 180122051C5ED310000C941D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180122031C5ED310000C941D /* XHPhotoApp */,
+				1801221C1C5ED310000C941D /* XHPhotoAppTests */,
+				180122271C5ED310000C941D /* XHPhotoAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180122021C5ED310000C941D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180122171C5ED310000C941D /* LaunchScreen.storyboard in Resources */,
+				180122141C5ED310000C941D /* Assets.xcassets in Resources */,
+				180122121C5ED310000C941D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1801221B1C5ED310000C941D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180122261C5ED310000C941D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DADFCD4C43126BD6AB50032 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3EC41CF58C760F6AD89BA795 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED74D126549682D6FCACAB89 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180122001C5ED310000C941D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801223F1C5ED438000C941D /* XHCollectionViewController.m in Sources */,
+				180122451C5ED4C8000C941D /* UICollectionView+Convenience.m in Sources */,
+				18C857B11C6010870073BF88 /* XHLaunchViewController.m in Sources */,
+				1801220C1C5ED310000C941D /* AppDelegate.m in Sources */,
+				180122541C5F029C000C941D /* XHImageScrollView.m in Sources */,
+				1801223C1C5ED358000C941D /* XHPhotoLibrary.m in Sources */,
+				18C857B41C6015140073BF88 /* XHInstCollectionViewController.m in Sources */,
+				180122421C5ED45D000C941D /* XHCollectionViewCell.m in Sources */,
+				180122511C5F0269000C941D /* XHDetailViewController.m in Sources */,
+				180122091C5ED310000C941D /* main.m in Sources */,
+				18C857B71C6015360073BF88 /* XHInstCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180122191C5ED310000C941D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180122221C5ED310000C941D /* XHPhotoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		180122241C5ED310000C941D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1801222D1C5ED310000C941D /* XHPhotoAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1801221F1C5ED310000C941D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180122031C5ED310000C941D /* XHPhotoApp */;
+			targetProxy = 1801221E1C5ED310000C941D /* PBXContainerItemProxy */;
+		};
+		1801222A1C5ED310000C941D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 180122031C5ED310000C941D /* XHPhotoApp */;
+			targetProxy = 180122291C5ED310000C941D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		180122101C5ED310000C941D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180122111C5ED310000C941D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180122151C5ED310000C941D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180122161C5ED310000C941D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1801222F1C5ED310000C941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180122301C5ED310000C941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180122321C5ED310000C941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3590E17AF02144F5F3D220 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHPhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuang.XHPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		180122331C5ED310000C941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990CC128E619FA1684EF3B89 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XHPhotoApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuang.XHPhotoApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		180122351C5ED310000C941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuang.XHPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHPhotoApp.app/XHPhotoApp";
+			};
+			name = Debug;
+		};
+		180122361C5ED310000C941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XHPhotoAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuang.XHPhotoAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XHPhotoApp.app/XHPhotoApp";
+			};
+			name = Release;
+		};
+		180122381C5ED310000C941D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XHPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuang.XHPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHPhotoApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		180122391C5ED310000C941D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XHPhotoAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaohuang.XHPhotoAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XHPhotoApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180121FF1C5ED310000C941D /* Build configuration list for PBXProject "XHPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1801222F1C5ED310000C941D /* Debug */,
+				180122301C5ED310000C941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180122311C5ED310000C941D /* Build configuration list for PBXNativeTarget "XHPhotoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180122321C5ED310000C941D /* Debug */,
+				180122331C5ED310000C941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180122341C5ED310000C941D /* Build configuration list for PBXNativeTarget "XHPhotoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180122351C5ED310000C941D /* Debug */,
+				180122361C5ED310000C941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180122371C5ED310000C941D /* Build configuration list for PBXNativeTarget "XHPhotoAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180122381C5ED310000C941D /* Debug */,
+				180122391C5ED310000C941D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180121FC1C5ED310000C941D /* Project object */;
+}
