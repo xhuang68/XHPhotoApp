@@ -5,6 +5,9 @@ This app is a demo for users to view images from camera roll and Instagram.
 
 ![image](./README_Demo.gif)  
 
+####Keynote Slides
+App Overview: [https://www.dropbox.com/s/rl5d93ypmn2wocy/app_overview.pdf?dl=0](https://www.dropbox.com/s/rl5d93ypmn2wocy/app_overview.pdf?dl=0)   
+Expansion Idea: [https://www.dropbox.com/s/l18puz2xytoms6x/idea_expansion.pdf?dl=0](https://www.dropbox.com/s/l18puz2xytoms6x/idea_expansion.pdf?dl=0)
 
 ####Implementation
 
