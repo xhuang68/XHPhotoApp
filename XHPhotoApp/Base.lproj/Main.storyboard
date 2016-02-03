@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1087" y="377"/>
+            <point key="canvasLocation" x="388" y="1168"/>
         </scene>
         <!--Collection View Controller-->
         <scene sceneID="jC0-ob-AsG">
@@ -146,7 +146,7 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fqv-fA-e8G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="388" y="1060"/>
+            <point key="canvasLocation" x="-389" y="1168"/>
         </scene>
         <!--Launch View Controller-->
         <scene sceneID="z5b-aX-sOS">
@@ -268,6 +268,6 @@
         <image name="insta" width="512" height="512"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="rLR-mg-vLN"/>
+        <segue reference="M8e-bn-wUm"/>
     </inferredMetricsTieBreakers>
 </document>

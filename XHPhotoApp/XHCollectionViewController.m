@@ -65,7 +65,7 @@ static CGSize thumbSize;
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     [self.photoLibrary imageAtIndex:indexPath.item completionHandler:^(UIImage *image) {
         self.detailImage = image;
-        NSLog(@"%@", image.description);
+        // NSLog(@"%@", image.description);
         [self performSegueWithIdentifier:@"detailSegue" sender:self];
     }];
 }

@@ -80,6 +80,7 @@
     } else if (!CGSizeEqualToSize(self.bounds.size, self.oldSize)) {
         [self adjustInnerView];
         self.oldSize = self.bounds.size;
+        // [self adjustSmallerView];
     }
     
     self.oldCenterPoint = [self centerPoint];
@@ -118,6 +119,30 @@
         
     }
 }
+
+/*
+- (void)adjustSmallerView {
+    
+    if ([self.delegate respondsToSelector:@selector(viewForZoomingInScrollView:)]) {
+        
+        UIView *viewToCenter = [self.delegate viewForZoomingInScrollView:self];
+        
+        // center the view when it becomes smaller than the size of the screen
+        CGSize boundsSize = self.bounds.size;
+        CGRect frameToCenter = viewToCenter.frame;
+        
+        // center horizontal
+        if (frameToCenter.size.width < boundsSize.width && frameToCenter.size.height < boundsSize.height) {
+            CGFloat padding = (boundsSize.width - frameToCenter.size.width) / 2;
+            self.constraintLeft.constant = padding;
+            self.constraintRight.constant = padding;
+            self.constraintTop.constant = 0;
+            self.constraintBottom.constant = 0;
+        }
+        
+    }
+}
+*/
 
 - (void)centerContent {
     

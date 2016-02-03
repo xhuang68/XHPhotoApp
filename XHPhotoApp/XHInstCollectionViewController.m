@@ -30,6 +30,7 @@
     UICollectionViewFlowLayout *layout = (UICollectionViewFlowLayout *) self.collectionViewLayout;
     layout.itemSize = CGSizeMake(width, width);
     self.collectionView.backgroundColor = [UIColor whiteColor];
+    self.navigationItem.title = @"Instagram";
     self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refreshHandler)];
     
     SimpleAuth.configuration[@"instagram"] = @{

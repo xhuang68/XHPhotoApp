@@ -185,10 +185,10 @@
 			children = (
 				18C857AF1C6010870073BF88 /* XHLaunchViewController.h */,
 				18C857B01C6010870073BF88 /* XHLaunchViewController.m */,
-				18C857B21C6015140073BF88 /* XHInstCollectionViewController.h */,
-				18C857B31C6015140073BF88 /* XHInstCollectionViewController.m */,
 				1801223D1C5ED438000C941D /* XHCollectionViewController.h */,
 				1801223E1C5ED438000C941D /* XHCollectionViewController.m */,
+				18C857B21C6015140073BF88 /* XHInstCollectionViewController.h */,
+				18C857B31C6015140073BF88 /* XHInstCollectionViewController.m */,
 				1801224F1C5F0269000C941D /* XHDetailViewController.h */,
 				180122501C5F0269000C941D /* XHDetailViewController.m */,
 			);

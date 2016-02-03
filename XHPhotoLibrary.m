@@ -47,9 +47,13 @@
 
 - (void)thumbAtIndex:(NSInteger)index thumbSize:(CGSize)thumbSize completionHandler:(void(^)(UIImage *thumb))completionHandler {
     PHAsset *asset = self.allPhotosFetchResult[index];
-    [self.imageManager requestImageForAsset:asset targetSize:thumbSize contentMode:PHImageContentModeAspectFill options:nil resultHandler:^(UIImage *result, NSDictionary *info) {
-        completionHandler(result);
-    }];
+    [self.imageManager requestImageForAsset:asset
+                                 targetSize:thumbSize
+                                contentMode:PHImageContentModeAspectFill
+                                    options:nil
+                              resultHandler:^(UIImage *result, NSDictionary *info) {
+                                  completionHandler(result);
+                                }];
 }
 
 - (void)imageAtIndex:(NSInteger)index completionHandler:(void(^)(UIImage *image))completionHandler {
@@ -57,9 +61,13 @@
     PHImageRequestOptions *options = [[PHImageRequestOptions alloc] init];
     options.deliveryMode = PHImageRequestOptionsDeliveryModeHighQualityFormat;
     options.networkAccessAllowed = YES;
-    [self.imageManager requestImageForAsset:asset targetSize:PHImageManagerMaximumSize contentMode:PHImageContentModeAspectFill options:options resultHandler:^(UIImage *result, NSDictionary *info) {
-        completionHandler(result);
-    }];
+    [self.imageManager requestImageForAsset:asset
+                                 targetSize:PHImageManagerMaximumSize
+                                contentMode:PHImageContentModeAspectFill
+                                    options:options
+                              resultHandler:^(UIImage *result, NSDictionary *info) {
+                                  completionHandler(result);
+                              }];
 }
 
 - (void) resetCache {
